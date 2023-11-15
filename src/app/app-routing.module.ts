@@ -8,6 +8,7 @@ import { ContactoComponent } from './screens/contacto/contacto.component';
 import { timeInterval } from 'rxjs';
 import { TiendaComponent } from './screens/tienda/tienda.component';
 import { Error404Component } from './screens/error404/error404.component';
+import { DetalleProductoComponent } from './screens/detalle-producto/detalle-producto.component';
 
 const routes: Routes = [
 
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:"contacto",component:ContactoComponent},
   {path:"tienda",component:TiendaComponent},
   {path:"registro",component:RegistroComponent},
+  {path:"detalles/:id",component:DetalleProductoComponent},
   {path:"**",component:Error404Component}
 
   

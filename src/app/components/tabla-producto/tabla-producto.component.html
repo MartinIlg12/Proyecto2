@@ -1,0 +1,27 @@
+<div class="col-lg-6 container">
+    <table class="table table-hover container">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Juego</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+            <th>Detalle</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let producto of dataProducto ">
+            <td>{{producto.id}}</td>
+            <td>{{producto.nombre}}</td>
+            <td> ${{producto.precio}}</td>
+            <td><img src="{{producto.imagen}}" class="imagen" >
+            </td>
+            <td>
+            <a href="detalles/{{producto.id}}">Detalle</a>
+        </td>
+            
+        </tbody>
+      </table>
+      <button></button>
+    </div>
