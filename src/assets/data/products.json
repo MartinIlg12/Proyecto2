@@ -1,0 +1,504 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Starfield",
+        "plataforma": "Xbox Series X",
+        "precio": 59.99,
+        "descuento": 10,
+        "descripcion": "Explora el vasto universo en este juego de exploración espacial.",
+        "imagen": "starfield.jpg",
+        "stock": 100
+      },
+      {
+        "id": 2,
+        "nombre": "CyberRealm",
+        "plataforma": "PlayStation 5",
+        "precio": 49.99,
+        "descuento": 5,
+        "descripcion": "Adéntrate en un mundo ciberpunk lleno de intriga y desafíos.",
+        "imagen": "cyberrealm.jpg",
+        "stock": 80
+      },
+      {
+        "id": 3,
+        "nombre": "Epic Quest",
+        "plataforma": "PC",
+        "precio": 39.99,
+        "descuento": 15,
+        "descripcion": "Embárcate en una búsqueda épica llena de magia y criaturas misteriosas.",
+        "imagen": "epic_quest.jpg",
+        "stock": 120
+      },
+      {
+        "id": 4,
+        "nombre": "Future Racer",
+        "plataforma": "Nintendo Switch",
+        "precio": 29.99,
+        "descuento": 0,
+        "descripcion": "Participa en emocionantes carreras en este juego de velocidad futurista.",
+        "imagen": "future_racer.jpg",
+        "stock": 60
+      },
+      {
+        "id": 5,
+        "nombre": "Lost Kingdoms",
+        "plataforma": "PlayStation 4",
+        "precio": 19.99,
+        "descuento": 8,
+        "descripcion": "Descubre los secretos de un reino perdido en este juego de aventuras.",
+        "imagen": "lost_kingdoms.jpg",
+        "stock": 150
+      },
+      {
+        "id": 6,
+        "nombre": "Virtual Reality Challenge",
+        "plataforma": "PC",
+        "precio": 49.99,
+        "descuento": 12,
+        "descripcion": "Sumérgete en desafíos de realidad virtual en este emocionante juego.",
+        "imagen": "virtual_reality_challenge.jpg",
+        "stock": 90
+      },
+      {
+        "id": 7,
+        "nombre": "Legend of the Galactic Heroes",
+        "plataforma": "Xbox Series X",
+        "precio": 59.99,
+        "descuento": 10,
+        "descripcion": "Conviértete en un héroe galáctico en esta epopeya espacial.",
+        "imagen": "galactic_heroes.jpg",
+        "stock": 110
+      },
+      {
+        "id": 8,
+        "nombre": "Magical Mayhem",
+        "plataforma": "Nintendo Switch",
+        "precio": 39.99,
+        "descuento": 8,
+        "descripcion": "Lucha contra criaturas mágicas en este juego lleno de caos y hechicería.",
+        "imagen": "magical_mayhem.jpg",
+        "stock": 70
+      },
+      {
+        "id": 9,
+        "nombre": "Future Sports 2040",
+        "plataforma": "PlayStation 5",
+        "precio": 44.99,
+        "descuento": 5,
+        "descripcion": "Experimenta deportes extremos en el futuro en este juego de acción.",
+        "imagen": "future_sports_2040.jpg",
+        "stock": 85
+      },
+      {
+        "id": 10,
+        "nombre": "Mystic Quest",
+        "plataforma": "PC",
+        "precio": 34.99,
+        "descuento": 15,
+        "descripcion": "Desentraña los misterios de un antiguo reino en este juego de rol.",
+        "imagen": "mystic_quest.jpg",
+        "stock": 95
+      },
+      {
+        "id": 11,
+        "nombre": "Space Odyssey",
+        "plataforma": "Xbox Series X",
+        "precio": 54.99,
+        "descuento": 8,
+        "descripcion": "Explora sistemas solares en una emocionante odisea espacial.",
+        "imagen": "space_odyssey.jpg",
+        "stock": 80
+      },
+      {
+        "id": 12,
+        "nombre": "Shadow Ninja",
+        "plataforma": "PlayStation 4",
+        "precio": 29.99,
+        "descuento": 0,
+        "descripcion": "Conviértete en un ninja sigiloso en este juego de acción y sigilo.",
+        "imagen": "shadow_ninja.jpg",
+        "stock": 100
+      },
+      {
+        "id": 13,
+        "nombre": "Arcane Legends",
+        "plataforma": "PC",
+        "precio": 44.99,
+        "descuento": 12,
+        "descripcion": "Vive aventuras místicas en un mundo lleno de leyendas y mitos.",
+        "imagen": "arcane_legends.jpg",
+        "stock": 65
+      },
+      {
+        "id": 14,
+        "nombre": "Speed Demon",
+        "plataforma": "Nintendo Switch",
+        "precio": 39.99,
+        "descuento": 5,
+        "descripcion": "Demuestra tu destreza en carreras a alta velocidad con obstáculos desafiantes.",
+        "imagen": "speed_demon.jpg",
+        "stock": 120
+      },
+      {
+        "id": 15,
+        "nombre": "Galactic Conquest",
+        "plataforma": "Xbox Series X",
+        "precio": 49.99,
+        "descuento": 15,
+        "descripcion": "Conquista galaxias en una estrategia épica de conquista espacial.",
+        "imagen": "galactic_conquest.jpg",
+        "stock": 90
+      },
+      {
+        "id": 16,
+        "nombre": "Medieval Mayhem",
+        "plataforma": "PlayStation 5",
+        "precio": 34.99,
+        "descuento": 8,
+        "descripcion": "Enfrenta batallas épicas en un mundo medieval lleno de caos y magia.",
+        "imagen": "medieval_mayhem.jpg",
+        "stock": 70
+      },
+      {
+        "id": 17,
+        "nombre": "Infinite Realms",
+        "plataforma": "PC",
+        "precio": 59.99,
+        "descuento": 10,
+        "descripcion": "Explora mundos infinitos en este juego de aventuras y descubrimientos.",
+        "imagen": "infinite_realms.jpg",
+        "stock": 110
+      },
+      {
+        "id": 18,
+        "nombre": "Underworld Chronicles",
+        "plataforma": "Nintendo Switch",
+        "precio": 49.99,
+        "descuento": 5,
+        "descripcion": "Desciende a las profundidades del inframundo en esta oscura odisea.",
+        "imagen": "underworld_chronicles.jpg",
+        "stock": 85
+      },
+      {
+        "id": 19,
+        "nombre": "Cybernetic Warfare",
+        "plataforma": "Xbox Series X",
+        "precio": 39.99,
+        "descuento": 10,
+        "descripcion": "Lucha en batallas futuristas con mejoras cibernéticas en este juego de acción.",
+        "imagen": "cybernetic_warfare.jpg",
+        "stock": 95
+      },
+      {
+        "id": 20,
+        "nombre": "Fantasy Football Manager 2023",
+        "plataforma": "PlayStation 4",
+        "precio": 24.99,
+        "descuento": 0,
+        "descripcion": "Gestiona tu propio equipo de fútbol en un mundo de fantasía.",
+        "imagen": "fantasy_football_manager_2023.jpg",
+        "stock": 150
+      },
+      {
+        "id": 21,
+        "nombre": "City Builder Deluxe",
+        "plataforma": "PC",
+        "precio": 49.99,
+        "descuento": 8,
+        "descripcion": "Construye y gestiona tu propia ciudad en este simulador de construcción.",
+        "imagen": "city_builder_deluxe.jpg",
+        "stock": 80
+      },
+      {
+        "id": 22,
+        "nombre": "Rogue Agent",
+        "plataforma": "Xbox Series X",
+        "precio": 34.99,
+        "descuento": 5,
+        "descripcion": "Conviértete en un agente secreto y completa misiones encubiertas.",
+        "imagen": "rogue_agent.jpg",
+        "stock": 100
+      },
+      {
+        "id": 23,
+        "nombre": "Skyrim Remastered",
+        "plataforma": "PlayStation 5",
+        "precio": 54.99,
+        "descuento": 15,
+        "descripcion": "Vuelve a sumergirte en el mundo épico de Skyrim con gráficos mejorados.",
+        "imagen": "skyrim_remastered.jpg",
+        "stock": 65
+      },
+      {
+        "id": 24,
+        "nombre": "Zombie Apocalypse",
+        "plataforma": "Nintendo Switch",
+        "precio": 39.99,
+        "descuento": 0,
+        "descripcion": "Sobrevive al apocalipsis zombi en este juego de acción y supervivencia.",
+        "imagen": "zombie_apocalypse.jpg",
+        "stock": 120
+      },
+      {
+        "id": 25,
+        "nombre": "Space Pirates",
+        "plataforma": "Xbox Series X",
+        "precio": 44.99,
+        "descuento": 12,
+        "descripcion": "Forma tu tripulación y conquista la galaxia como un temible pirata espacial.",
+        "imagen": "space_pirates.jpg",
+        "stock": 90
+      },
+      {
+        "id": 26,
+        "nombre": "Mythical Creatures",
+        "plataforma": "PlayStation 4",
+        "precio": 29.99,
+        "descuento": 8,
+        "descripcion": "Enfréntate a criaturas míticas en un mundo lleno de magia y leyendas.",
+        "imagen": "mythical_creatures.jpg",
+        "stock": 70
+      },
+      {
+        "id": 27,
+        "nombre": "Future Warfare",
+        "plataforma": "PC",
+        "precio": 59.99,
+        "descuento": 10,
+        "descripcion": "Participa en intensas batallas futuristas en este juego de estrategia y acción.",
+        "imagen": "future_warfare.jpg",
+        "stock": 110
+      },
+      {
+        "id": 28,
+        "nombre": "Wild West Outlaws",
+        "plataforma": "Nintendo Switch",
+        "precio": 49.99,
+        "descuento": 5,
+        "descripcion": "Embárcate en una aventura en el lejano oeste y enfrenta a forajidos.",
+        "imagen": "wild_west_outlaws.jpg",
+        "stock": 85
+      },
+      {
+        "id": 29,
+        "nombre": "Robot Rumble",
+        "plataforma": "Xbox Series X",
+        "precio": 39.99,
+        "descuento": 10,
+        "descripcion": "Participa en batallas de robots en este juego de lucha futurista.",
+        "imagen": "robot_rumble.jpg",
+        "stock": 95
+      },
+      {
+        "id": 30,
+        "nombre": "Pirate's Cove",
+        "plataforma": "PlayStation 5",
+        "precio": 34.99,
+        "descuento": 0,
+        "descripcion": "Explora islas y busca tesoros como un intrépido pirata en alta mar.",
+        "imagen": "pirates_cove.jpg",
+        "stock": 150
+      },
+      {
+        "id": 31,
+        "nombre": "Deep Sea Explorer",
+        "plataforma": "PC",
+        "precio": 49.99,
+        "descuento": 8,
+        "descripcion": "Sumérgete en las profundidades del océano en busca de tesoros y misterios.",
+        "imagen": "deep_sea_explorer.jpg",
+        "stock": 80
+      },
+      {
+        "id": 32,
+        "nombre": "Alien Onslaught",
+        "plataforma": "Xbox Series X",
+        "precio": 34.99,
+        "descuento": 5,
+        "descripcion": "Defiende la Tierra de una invasión alienígena en este juego de disparos.",
+        "imagen": "alien_onslaught.jpg",
+        "stock": 100
+      },
+      {
+        "id": 33,
+        "nombre": "Lost in Space",
+        "plataforma": "PlayStation 4",
+        "precio": 54.99,
+        "descuento": 15,
+        "descripcion": "Explora sistemas estelares lejanos y enfrenta desafíos cósmicos.",
+        "imagen": "lost_in_space.jpg",
+        "stock": 65
+      },
+      {
+        "id": 34,
+        "nombre": "Fantasy Kingdom Builder",
+        "plataforma": "Nintendo Switch",
+        "precio": 39.99,
+        "descuento": 0,
+        "descripcion": "Construye tu propio reino mágico en este juego de simulación.",
+        "imagen": "fantasy_kingdom_builder.jpg",
+        "stock": 120
+      },
+      {
+        "id": 35,
+        "nombre": "Martial Arts Master",
+        "plataforma": "Xbox Series X",
+        "precio": 44.99,
+        "descuento": 12,
+        "descripcion": "Conviértete en un maestro de artes marciales y enfrenta desafíos épicos.",
+        "imagen": "martial_arts_master.jpg",
+        "stock": 90
+      },
+      {
+        "id": 36,
+        "nombre": "Parallel Universes",
+        "plataforma": "PC",
+        "precio": 29.99,
+        "descuento": 8,
+        "descripcion": "Explora universos paralelos en esta aventura de ciencia ficción.",
+        "imagen": "parallel_universes.jpg",
+        "stock": 70
+      },
+      {
+        "id": 37,
+        "nombre": "Wasteland Survivor",
+        "plataforma": "PlayStation 5",
+        "precio": 59.99,
+        "descuento": 10,
+        "descripcion": "Sobrevive en un mundo postapocalíptico lleno de peligros y enigmas.",
+        "imagen": "wasteland_survivor.jpg",
+        "stock": 110
+      },
+      {
+        "id": 38,
+        "nombre": "Steampunk Adventures",
+        "plataforma": "Nintendo Switch",
+        "precio": 49.99,
+        "descuento": 5,
+        "descripcion": "Embárcate en aventuras emocionantes en un mundo steampunk.",
+        "imagen": "steampunk_adventures.jpg",
+        "stock": 85
+      },
+      {
+        "id": 39,
+        "nombre": "Virtual Reality Olympics",
+        "plataforma": "Xbox Series X",
+        "precio": 39.99,
+        "descuento": 10,
+        "descripcion": "Participa en los Juegos Olímpicos virtuales con desafíos únicos.",
+        "imagen": "virtual_reality_olympics.jpg",
+        "stock": 95
+      },
+      {
+        "id": 40,
+        "nombre": "Age of Empires: New Beginnings",
+        "plataforma": "PlayStation 4",
+        "precio": 34.99,
+        "descuento": 0,
+        "descripcion": "Construye imperios y lidera civilizaciones en esta nueva entrega de Age of Empires.",
+        "imagen": "age_of_empires_new_beginnings.jpg",
+        "stock": 150
+      },
+      {
+        "id": 41,
+        "nombre": "Robo Rescuers",
+        "plataforma": "PC",
+        "precio": 49.99,
+        "descuento": 8,
+        "descripcion": "Controla robots de rescate en misiones de salvamento en este juego futurista.",
+        "imagen": "robo_rescuers.jpg",
+        "stock": 80
+      },
+      {
+        "id": 42,
+        "nombre": "Dark Souls Reborn",
+        "plataforma": "Xbox Series X",
+        "precio": 34.99,
+        "descuento": 5,
+        "descripcion": "Enfréntate a desafíos oscuros y poderosos en este juego de rol.",
+        "imagen": "dark_souls_reborn.jpg",
+        "stock": 100
+      },
+      {
+        "id": 43,
+        "nombre": "Legendary Explorers",
+        "plataforma": "PlayStation 5",
+        "precio": 54.99,
+        "descuento": 15,
+        "descripcion": "Únete a una expedición legendaria en busca de tesoros y secretos perdidos.",
+        "imagen": "legendary_explorers.jpg",
+        "stock": 65
+      },
+      {
+        "id": 44,
+        "nombre": "Apex Legends: Galactic Warfare",
+        "plataforma": "Nintendo Switch",
+        "precio": 39.99,
+        "descuento": 0,
+        "descripcion": "Participa en batallas galácticas en la expansión de Apex Legends.",
+        "imagen": "apex_legends_galactic_warfare.jpg",
+        "stock": 120
+      },
+      {
+        "id": 45,
+        "nombre": "Neo Tokyo Nights",
+        "plataforma": "Xbox Series X",
+        "precio": 44.99,
+        "descuento": 12,
+        "descripcion": "Explora la ciudad futurista de Neo Tokyo en este juego de aventuras nocturnas.",
+        "imagen": "neo_tokyo_nights.jpg",
+        "stock": 90
+      },
+      {
+        "id": 46,
+        "nombre": "Jurassic Survival",
+        "plataforma": "PlayStation 4",
+        "precio": 29.99,
+        "descuento": 8,
+        "descripcion": "Sobrevive en un mundo habitado por dinosaurios en este juego de supervivencia.",
+        "imagen": "jurassic_survival.jpg",
+        "stock": 70
+      },
+      {
+        "id": 47,
+        "nombre": "Quantum Conundrum",
+        "plataforma": "PC",
+        "precio": 59.99,
+        "descuento": 10,
+        "descripcion": "Resuelve acertijos y desafíos en este juego de aventuras cuánticas.",
+        "imagen": "quantum_conundrum.jpg",
+        "stock": 110
+      },
+      {
+        "id": 48,
+        "nombre": "Cursed Kingdoms",
+        "plataforma": "Nintendo Switch",
+        "precio": 49.99,
+        "descuento": 5,
+        "descripcion": "Enfréntate a maldiciones y criaturas oscuras en este juego de rol.",
+        "imagen": "cursed_kingdoms.jpg",
+        "stock": 85
+      },
+      {
+        "id": 49,
+        "nombre": "Time Traveler's Dilemma",
+        "plataforma": "Xbox Series X",
+        "precio": 39.99,
+        "descuento": 10,
+        "descripcion": "Resuelve paradojas temporales en esta intrigante aventura de viajes en el tiempo.",
+        "imagen": "time_travelers_dilemma.jpg",
+        "stock": 95
+      },
+      {
+        "id": 50,
+        "nombre": "Glorious Revolution",
+        "plataforma": "PlayStation 5",
+        "precio": 34.99,
+        "descuento": 0,
+        "descripcion": "Lidera una revolución en un mundo de fantasía en este juego estratégico.",
+        "imagen": "glorious_revolution.jpg",
+        "stock": 150
+      }
+    ]
+  }
