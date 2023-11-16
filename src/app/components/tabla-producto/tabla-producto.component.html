@@ -1,4 +1,4 @@
-<div class="col-lg-6 container">
+<!-- <div class="col-lg-6 container">
     <table class="table table-hover container">
         <thead>
           <tr>
@@ -11,7 +11,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let producto of dataProducto ">
+          <tr  ">
             <td>{{producto.id}}</td>
             <td>{{producto.nombre}}</td>
             <td> ${{producto.precio}}</td>
@@ -24,4 +24,46 @@
         </tbody>
       </table>
       <button></button>
+    </div> -->
+    <h3 style="color: rgb(40, 206, 25); background-color: black;">GAME XTREME</h3>
+<section class="intro">
+  <div class="bg-image h-100" style="background-image: url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg');">
+    <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0,0,0,.25);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card bg-dark shadow-2-strong">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-dark table-borderless mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">JUEG0</th>
+                        <th scope="col">PRECIO</th>
+                        <th scope="col">PORTADA</th>
+                        <th scope="col">DETALLE</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let producto of dataProducto">
+                        <th scope>{{producto.id}}</th>
+                        <td>{{producto.nombre}}</td>
+                        <td>${{producto.precio}}</td>
+                        <td><img src="{{producto.imagen}}" class="imagen" >
+                        </td>
+                        <td>
+                          <a href="detalles/{{producto.id}}">Detalle</a>
+                      </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
