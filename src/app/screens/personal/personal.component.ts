@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PersonalService } from 'src/app/services/personal/personal.service';
 
 @Component({
   selector: 'app-personal',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./personal.component.css']
 })
 export class PersonalComponent {
+  constructor(private personal : PersonalService){}
+  dataPersonal : any={}
 
+  ngOnInit(){
+    this.personal.getPersonal().subscribe(personal=>{
+      this.dataPersonal=personal
+    })
+  }
 }
