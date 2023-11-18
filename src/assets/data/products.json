@@ -107,7 +107,7 @@
         "precio": 54.99,
         "descuento": 8,
         "descripcion": "Explora sistemas solares en una emocionante odisea espacial.",
-        "imagen": "shttps://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSpace%20Odyssey.png?alt=media&token=c184d2d2-cea4-48b5-a0e9-27fa49d45577",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSpace%20Odyssey.png?alt=media&token=c184d2d2-cea4-48b5-a0e9-27fa49d45577",
         "stock": 80
       },
       {
@@ -287,7 +287,7 @@
         "precio": 39.99,
         "descuento": 10,
         "descripcion": "Participa en batallas de robots en este juego de lucha futurista.",
-        "imagen": "robot_rumble.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FRobot%20Rumble.jpg?alt=media&token=da4906ff-4429-4726-b771-c75d46db68f0",
         "stock": 95
       },
       {
@@ -297,7 +297,7 @@
         "precio": 34.99,
         "descuento": 0,
         "descripcion": "Explora islas y busca tesoros como un intrépido pirata en alta mar.",
-        "imagen": "pirates_cove.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FPirate's%20Cove.jpeg?alt=media&token=676c1a8a-e77e-4346-94e9-b61eade512c5",
         "stock": 150
       },
       {
@@ -307,7 +307,7 @@
         "precio": 49.99,
         "descuento": 8,
         "descripcion": "Sumérgete en las profundidades del océano en busca de tesoros y misterios.",
-        "imagen": "deep_sea_explorer.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FDeep%20Sea%20Explorer.jpeg?alt=media&token=54772938-0735-4022-a4c9-eb43c0c3faaf",
         "stock": 80
       },
       {
@@ -317,7 +317,7 @@
         "precio": 34.99,
         "descuento": 5,
         "descripcion": "Defiende la Tierra de una invasión alienígena en este juego de disparos.",
-        "imagen": "alien_onslaught.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FAlien%20Onslaught.jpg?alt=media&token=354cc7b8-a206-4885-a5de-c021a130c2e2",
         "stock": 100
       },
       {
@@ -327,7 +327,7 @@
         "precio": 54.99,
         "descuento": 15,
         "descripcion": "Explora sistemas estelares lejanos y enfrenta desafíos cósmicos.",
-        "imagen": "lost_in_space.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLost%20in%20Space.jpg?alt=media&token=4fb0455e-b518-47db-b2e1-3c83c0fb05b4",
         "stock": 65
       },
       {
@@ -337,7 +337,7 @@
         "precio": 39.99,
         "descuento": 0,
         "descripcion": "Construye tu propio reino mágico en este juego de simulación.",
-        "imagen": "fantasy_kingdom_builder.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFantasy%20Kingdom%20Builder.jpeg?alt=media&token=68519021-e7ca-40ec-9151-b5b2cf56fee7",
         "stock": 120
       },
       {
@@ -347,7 +347,7 @@
         "precio": 44.99,
         "descuento": 12,
         "descripcion": "Conviértete en un maestro de artes marciales y enfrenta desafíos épicos.",
-        "imagen": "martial_arts_master.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FMartial%20Arts%20Master.jpg?alt=media&token=ca0644b9-e56f-4eae-a877-a63630fc80b0",
         "stock": 90
       },
       {
@@ -357,7 +357,7 @@
         "precio": 29.99,
         "descuento": 8,
         "descripcion": "Explora universos paralelos en esta aventura de ciencia ficción.",
-        "imagen": "parallel_universes.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FParallel%20Universes.jpg?alt=media&token=81bf7d49-22c3-402e-ad2f-767747b09e6d",
         "stock": 70
       },
       {
@@ -367,7 +367,7 @@
         "precio": 59.99,
         "descuento": 10,
         "descripcion": "Sobrevive en un mundo postapocalíptico lleno de peligros y enigmas.",
-        "imagen": "wasteland_survivor.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FWasteland%20Survivor.jpg?alt=media&token=6c9488fc-6e58-4100-8122-9f222cc73782",
         "stock": 110
       },
       {
@@ -377,7 +377,7 @@
         "precio": 49.99,
         "descuento": 5,
         "descripcion": "Embárcate en aventuras emocionantes en un mundo steampunk.",
-        "imagen": "steampunk_adventures.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSteampunk%20Adventures.jpg?alt=media&token=62bbd805-94fc-446a-82ab-17b80b97aef8",
         "stock": 85
       },
       {
@@ -397,7 +397,7 @@
         "precio": 34.99,
         "descuento": 0,
         "descripcion": "Construye imperios y lidera civilizaciones en esta nueva entrega de Age of Empires.",
-        "imagen": "age_of_empires_new_beginnings.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FAge%20of%20Empires.jpg?alt=media&token=a39e2cf0-8544-492f-946d-ad06b701b14b",
         "stock": 150
       },
       {
@@ -407,7 +407,7 @@
         "precio": 49.99,
         "descuento": 8,
         "descripcion": "Controla robots de rescate en misiones de salvamento en este juego futurista.",
-        "imagen": "robo_rescuers.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FRobo%20Rescuers.png?alt=media&token=d4b18b74-b865-44c6-b14a-802bef599c83",
         "stock": 80
       },
       {
@@ -417,7 +417,7 @@
         "precio": 34.99,
         "descuento": 5,
         "descripcion": "Enfréntate a desafíos oscuros y poderosos en este juego de rol.",
-        "imagen": "dark_souls_reborn.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FDark%20Souls%20Reborn.jpg?alt=media&token=f19a116e-7ad1-4c41-95f7-d7458c7abc46",
         "stock": 100
       },
       {
@@ -427,7 +427,7 @@
         "precio": 54.99,
         "descuento": 15,
         "descripcion": "Únete a una expedición legendaria en busca de tesoros y secretos perdidos.",
-        "imagen": "legendary_explorers.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLegendary%20Explorers.jpg?alt=media&token=52f86fda-458e-409f-9888-beb7f6540ca1",
         "stock": 65
       },
       {
@@ -437,7 +437,7 @@
         "precio": 39.99,
         "descuento": 0,
         "descripcion": "Participa en batallas galácticas en la expansión de Apex Legends.",
-        "imagen": "apex_legends_galactic_warfare.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FApex%20Legends.jpg?alt=media&token=7bdd3a29-98b9-4dc6-9f88-7e563b80a0d4",
         "stock": 120
       },
       {
@@ -447,7 +447,7 @@
         "precio": 44.99,
         "descuento": 12,
         "descripcion": "Explora la ciudad futurista de Neo Tokyo en este juego de aventuras nocturnas.",
-        "imagen": "neo_tokyo_nights.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FNeo%20Tokyo%20Nights.jpg?alt=media&token=00e6fdb3-c9c2-447a-9d7b-1bd8a1f86989",
         "stock": 90
       },
       {
@@ -457,7 +457,7 @@
         "precio": 29.99,
         "descuento": 8,
         "descripcion": "Sobrevive en un mundo habitado por dinosaurios en este juego de supervivencia.",
-        "imagen": "jurassic_survival.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FJurassic%20Survival.png?alt=media&token=bcb88179-53cb-434e-9691-fbeeb2cbaec2",
         "stock": 70
       },
       {
@@ -467,7 +467,7 @@
         "precio": 59.99,
         "descuento": 10,
         "descripcion": "Resuelve acertijos y desafíos en este juego de aventuras cuánticas.",
-        "imagen": "quantum_conundrum.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FQuantum%20Conundrum.jpg?alt=media&token=3ed8914b-66db-4d2a-935f-408510eacc80",
         "stock": 110
       },
       {
@@ -477,7 +477,7 @@
         "precio": 49.99,
         "descuento": 5,
         "descripcion": "Enfréntate a maldiciones y criaturas oscuras en este juego de rol.",
-        "imagen": "cursed_kingdoms.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FCursed%20Kingdoms.png?alt=media&token=38fce823-0800-4478-9680-6e80a4165300",
         "stock": 85
       },
       {
@@ -497,7 +497,7 @@
         "precio": 34.99,
         "descuento": 0,
         "descripcion": "Lidera una revolución en un mundo de fantasía en este juego estratégico.",
-        "imagen": "glorious_revolution.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FGlorious%20Revolution.jpg?alt=media&token=dcf7a258-edc1-4963-8ffa-1dfe494d16be",
         "stock": 150
       }
 
