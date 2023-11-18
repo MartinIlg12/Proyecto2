@@ -15,6 +15,7 @@ import { Error404Component } from './screens/error404/error404.component';
 import { TablaProductoComponent } from './components/tabla-producto/tabla-producto.component';
 import { DetalleProductoComponent } from './screens/detalle-producto/detalle-producto.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

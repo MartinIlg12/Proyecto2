@@ -25,6 +25,7 @@
       </table>
       <button></button>
     </div> -->
+    <div>
     <h3 style="color: rgb(40, 206, 25); background-color: black;">GAME XTREME</h3>
 <section class="intro">
   <div class="bg-image h-100" style="background-image: url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg');">
@@ -54,6 +55,8 @@
                         </td>
                         <td>
                           <a href="detalles/{{producto.id}}">Detalle</a>
+                          <br>
+                          <button (click)="addToCart(producto)">Agregar al carrito</button>
                       </td>
                       </tr>
                     </tbody>
@@ -66,4 +69,5 @@
       </div>
     </div>
   </div>
+  
 </section>

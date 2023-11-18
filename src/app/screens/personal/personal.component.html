@@ -1,4 +1,7 @@
+
+
 <body style="background-image: url(https://e0.pxfuel.com/wallpapers/379/428/desktop-wallpaper-gaming-black-gaming.jpg);">
+  <div class="container">
     <div>
         <h3 style="color:rgb(40, 206, 25); text-align: center;">GAME XTREME</h3>
         <p style="color: aliceblue;">En el corazón de la experiencia gamer, emerge Game Xtreme como un santuario para los amantes de los videojuegos. Con un ambiente vibrante y acogedor, nuestro equipo está compuesto por apasionados gamers que comparten una conexión única con la comunidad. Nos enorgullece ofrecer un espacio donde los jugadores pueden encontrar no solo productos de alta calidad, sino también un lugar donde compartir su entusiasmo y estar rodeados de una comunidad que comparte su amor por los videojuegos.</p>
@@ -14,12 +17,12 @@
 
   
 
-  <div class="midon" style="background-color: black;">
+  <div class="midon container" style="background-color: black;">
     <br><br>
     <h1 style="text-align: center; color: rgb(40, 206, 25);" >PERSONAL DE GAME XTREME</h1>
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner" *ngFor="let personal of dataPersonal">
-          <div class="carousel-item active">
+          <div class="carousel-item active md-col-3">
             <img src={{personal.imagen}} class="d-block w-100" alt="..." width="35px" height="350px">
             <h3 style="color: rgb(247, 248, 250); text-align: center;">{{personal.nombre}}</h3>
             <p style="text-align: center; color: rgb(247, 248, 250); " >{{personal.cargo}}</p>
@@ -38,6 +41,6 @@
       </div>
     </div>
 </div>
-
+</div>
 
 </body>

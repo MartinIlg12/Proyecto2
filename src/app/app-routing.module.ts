@@ -9,6 +9,7 @@ import { timeInterval } from 'rxjs';
 import { TiendaComponent } from './screens/tienda/tienda.component';
 import { Error404Component } from './screens/error404/error404.component';
 import { DetalleProductoComponent } from './screens/detalle-producto/detalle-producto.component';
+import { carritoGuard } from './guards/carrito.guard';
 
 const routes: Routes = [
 
@@ -16,7 +17,7 @@ const routes: Routes = [
   {path:"personal",component:PersonalComponent},
   {path:"productos",component:ProductosComponent},
   {path:"contacto",component:ContactoComponent},
-  {path:"tienda",component:TiendaComponent},
+  {path:"tienda",component:TiendaComponent, canActivate:[carritoGuard]},
   {path:"registro",component:RegistroComponent},
   {path:"detalles/:id",component:DetalleProductoComponent},
   {path:"**",component:Error404Component}

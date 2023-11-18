@@ -387,7 +387,7 @@
         "precio": 39.99,
         "descuento": 10,
         "descripcion": "Participa en los Juegos Olímpicos virtuales con desafíos únicos.",
-        "imagen": "virtual_reality_olympics.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Fdescarga%20(10).jpeg?alt=media&token=e8dae76c-e729-44d7-94c1-233c74b6bd88",
         "stock": 95
       },
       {
@@ -482,12 +482,12 @@
       },
       {
         "id": 49,
-        "nombre": "Time Traveler's Dilemma",
+        "nombre": "Metal Gear Solid 3",
         "plataforma": "Xbox Series X",
         "precio": 39.99,
         "descuento": 10,
         "descripcion": "Resuelve paradojas temporales en esta intrigante aventura de viajes en el tiempo.",
-        "imagen": "time_travelers_dilemma.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Fmetalgear0.jpg?alt=media&token=df7ada14-e264-415f-a568-4701b38d8632",
         "stock": 95
       },
       {

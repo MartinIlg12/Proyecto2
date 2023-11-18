@@ -5,27 +5,34 @@
       <p>Al registrarte podras acceder a varias promociones y novedades solo para nuestros clientes.</p> 
     </div>
       
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>¿QUÉ ES LA KINGS LEAGUE?</h3>
-          <p>La Kings League, denominada oficialmente por motivos de patrocinio como Kings League InfoJobs.</p>
-          <p>Es una liga de fútbol 7 con sede en Barcelona, España, creada por el exfutbolista Gerard Piqué en 2022 en asociación con otras personalidades de internet y streamers</p>
-          <img src="https://elmarketingdeportivo.com/wp-content/uploads/2023/03/Imagen-Destacada-1.jpg" alt="" height="50%" width="100%">
-        </div>
-        <div class="col-sm-4">
-          <h3>NUESTROS DATOS</h3>
-          <p>La Kings League suma 40 millones de interacciones en lo que va del 2023 en Twitter, supera a la Liga MX, Serie A y Ligue 1. </p>
-          <p>Después del canal YouTube de la Premier League, el segundo canal con mayor crecimiento es el de la Kings League con más de 248,750 suscriptores en el año.</p>
-          <img src="https://pbs.twimg.com/media/FoS2l2KWYAEtNWW.jpg" alt="" height="50%" width="100%">
-        </div>
-        <div class="col-sm-4">
-          <h3>NUESTRO ESTADIO</h3>   
-          <p>La Kings League se juega en un pabellón situado en el puerto de Barcelona</p>     
-          <p>El CUPRA Arena es un estadio disruptivo, que cuenta con una pantalla gigante que enmarca la zona de los banquillos, cabinas de retransmisión para los streamers, una llamativa iluminación </p>
-          <img src="https://www.cupraofficial.es/content/dam/countries/es/cupra-website/patrocinios/kings-league/article-hero/small/kings-league.jpg" alt="" height="50%" width="100%">
-        </div>
-      </div>
-    </div>
+    <div class="container">
+      <form (ngSubmit)="login(form)" #form="ngForm">
+          <div class="mb-3 mt-3">
+            <label for="nick" class="form-label">Nick:</label>
+            <input type="text" class="form-control"   name="nick" [(ngModel)]="nick">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control"  name="pass" [(ngModel)]="pass">
+          </div>
+        
+          
+          <div class="container mt-3">
+              <h2>Seleccione su Rol</h2>
+              
+              
+               <select class="form-select " name="rol" [(ngModel)]="rol">
+                 <option>admin</option>
+                 <option>usuario</option>
+                 <option>visitante</option>
+               </select>
+               <br><br>
+               <button type="submit" class="btn btn-primary">Submit</button>
+               
+            </div>
+        </form>
+        
+<button (click)="cerrar()">CERRAR SESIÓN</button>
+  </div>
     
     </body>
