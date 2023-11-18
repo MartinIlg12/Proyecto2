@@ -7,7 +7,7 @@
         "precio": 59.99,
         "descuento": 10,
         "descripcion": "Explora el vasto universo en este juego de exploración espacial.",
-        "imagen": "starfield.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FStarfield---car%C3%83%C2%A1tula.jpg?alt=media&token=a3d35b64-6708-48bc-ba04-445e5833bf6f",
         "stock": 100
       },
       {
@@ -17,7 +17,7 @@
         "precio": 49.99,
         "descuento": 5,
         "descripcion": "Adéntrate en un mundo ciberpunk lleno de intriga y desafíos.",
-        "imagen": "cyberrealm.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Fcyberrealm.jpeg?alt=media&token=5d0bc373-5407-4e05-9c34-3eade8e1d4a4",
         "stock": 80
       },
       {
@@ -27,7 +27,7 @@
         "precio": 39.99,
         "descuento": 15,
         "descripcion": "Embárcate en una búsqueda épica llena de magia y criaturas misteriosas.",
-        "imagen": "epic_quest.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Fepicquest.jpg?alt=media&token=c91f1ffe-4773-414e-ae14-60e02cdd05b1",
         "stock": 120
       },
       {
@@ -37,7 +37,7 @@
         "precio": 29.99,
         "descuento": 0,
         "descripcion": "Participa en emocionantes carreras en este juego de velocidad futurista.",
-        "imagen": "future_racer.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Racer.jpeg?alt=media&token=c3f13872-0979-4c79-8691-8ad51826473d",
         "stock": 60
       },
       {
@@ -47,7 +47,7 @@
         "precio": 19.99,
         "descuento": 8,
         "descripcion": "Descubre los secretos de un reino perdido en este juego de aventuras.",
-        "imagen": "lost_kingdoms.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLost%20Kingdoms.jpeg?alt=media&token=6757bdc6-273d-4771-8ce9-6f8f53bffff7",
         "stock": 150
       },
       {
@@ -57,7 +57,7 @@
         "precio": 49.99,
         "descuento": 12,
         "descripcion": "Sumérgete en desafíos de realidad virtual en este emocionante juego.",
-        "imagen": "virtual_reality_challenge.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FVirtual%20Reality%20Challenge.jpg?alt=media&token=e129eb97-beb6-4364-895b-483c016f142b",
         "stock": 90
       },
       {
@@ -67,7 +67,7 @@
         "precio": 59.99,
         "descuento": 10,
         "descripcion": "Conviértete en un héroe galáctico en esta epopeya espacial.",
-        "imagen": "galactic_heroes.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLegend%20of%20the%20Galactic%20Heroes.jpg?alt=media&token=39b4de70-c8f1-4f18-9efa-7653ef71918c",
         "stock": 110
       },
       {
@@ -77,7 +77,7 @@
         "precio": 39.99,
         "descuento": 8,
         "descripcion": "Lucha contra criaturas mágicas en este juego lleno de caos y hechicería.",
-        "imagen": "magical_mayhem.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FMagical%20Mayhem.jpg?alt=media&token=d90f749a-2ad2-4143-a050-33f65f8be922",
         "stock": 70
       },
       {
@@ -87,7 +87,7 @@
         "precio": 44.99,
         "descuento": 5,
         "descripcion": "Experimenta deportes extremos en el futuro en este juego de acción.",
-        "imagen": "future_sports_2040.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Sports%202040.jpg?alt=media&token=83a1b5d8-26cc-4d63-acea-93a00fc35249",
         "stock": 85
       },
       {
@@ -97,7 +97,7 @@
         "precio": 34.99,
         "descuento": 15,
         "descripcion": "Desentraña los misterios de un antiguo reino en este juego de rol.",
-        "imagen": "mystic_quest.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FMystic%20Quest.jpg?alt=media&token=710776cd-2e37-4e08-b205-19309b3c8659",
         "stock": 95
       },
       {
@@ -107,7 +107,7 @@
         "precio": 54.99,
         "descuento": 8,
         "descripcion": "Explora sistemas solares en una emocionante odisea espacial.",
-        "imagen": "space_odyssey.jpg",
+        "imagen": "shttps://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSpace%20Odyssey.png?alt=media&token=c184d2d2-cea4-48b5-a0e9-27fa49d45577",
         "stock": 80
       },
       {
@@ -117,7 +117,7 @@
         "precio": 29.99,
         "descuento": 0,
         "descripcion": "Conviértete en un ninja sigiloso en este juego de acción y sigilo.",
-        "imagen": "shadow_ninja.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FShadow%20Ninja.jpg?alt=media&token=70a25bd2-8e65-4f63-9dd6-060836c2bbd6",
         "stock": 100
       },
       {
@@ -127,7 +127,7 @@
         "precio": 44.99,
         "descuento": 12,
         "descripcion": "Vive aventuras místicas en un mundo lleno de leyendas y mitos.",
-        "imagen": "arcane_legends.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FArcane%20Legends.jpg?alt=media&token=63b2c92a-57c5-4e8b-9748-4ab260095385",
         "stock": 65
       },
       {
@@ -137,7 +137,7 @@
         "precio": 39.99,
         "descuento": 5,
         "descripcion": "Demuestra tu destreza en carreras a alta velocidad con obstáculos desafiantes.",
-        "imagen": "speed_demon.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSpeed%20Demon.jpg?alt=media&token=5f5f642e-3e75-4362-bdd0-06005166046c",
         "stock": 120
       },
       {
@@ -147,7 +147,7 @@
         "precio": 49.99,
         "descuento": 15,
         "descripcion": "Conquista galaxias en una estrategia épica de conquista espacial.",
-        "imagen": "galactic_conquest.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FGalactic%20Quest.jpeg?alt=media&token=b6645db5-8e22-4931-9ba5-cc6448d4a3f7",
         "stock": 90
       },
       {
@@ -157,7 +157,7 @@
         "precio": 34.99,
         "descuento": 8,
         "descripcion": "Enfrenta batallas épicas en un mundo medieval lleno de caos y magia.",
-        "imagen": "medieval_mayhem.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FMedieval%20Mayhem.jpg?alt=media&token=2bbd2cd2-7e04-4c44-aff4-daa213e2d45c",
         "stock": 70
       },
       {
@@ -167,7 +167,7 @@
         "precio": 59.99,
         "descuento": 10,
         "descripcion": "Explora mundos infinitos en este juego de aventuras y descubrimientos.",
-        "imagen": "infinite_realms.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FInfinite%20Realms.jpg?alt=media&token=c24a7e94-ec94-4f88-a2f1-33cf520e315b",
         "stock": 110
       },
       {
@@ -177,7 +177,7 @@
         "precio": 49.99,
         "descuento": 5,
         "descripcion": "Desciende a las profundidades del inframundo en esta oscura odisea.",
-        "imagen": "underworld_chronicles.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FUnderworld%20Chronicles.jpg?alt=media&token=1f1316d5-117c-4923-8c9f-7afd077c834d",
         "stock": 85
       },
       {
@@ -187,7 +187,7 @@
         "precio": 39.99,
         "descuento": 10,
         "descripcion": "Lucha en batallas futuristas con mejoras cibernéticas en este juego de acción.",
-        "imagen": "cybernetic_warfare.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FCybernetic%20Warfare.jpeg?alt=media&token=9965ec34-de66-4d65-a5b7-cb1337b53ad7",
         "stock": 95
       },
       {
@@ -197,7 +197,7 @@
         "precio": 24.99,
         "descuento": 0,
         "descripcion": "Gestiona tu propio equipo de fútbol en un mundo de fantasía.",
-        "imagen": "fantasy_football_manager_2023.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFantasy%20Football%20Manager%202023.jpg?alt=media&token=5a5f56ac-e24f-46b6-bd4d-8adab4e897a7",
         "stock": 150
       },
       {
@@ -207,7 +207,7 @@
         "precio": 49.99,
         "descuento": 8,
         "descripcion": "Construye y gestiona tu propia ciudad en este simulador de construcción.",
-        "imagen": "city_builder_deluxe.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FCity%20Builder.jpg?alt=media&token=2c74d849-2c6f-468b-ad65-c90c674d4e0e",
         "stock": 80
       },
       {
@@ -217,7 +217,7 @@
         "precio": 34.99,
         "descuento": 5,
         "descripcion": "Conviértete en un agente secreto y completa misiones encubiertas.",
-        "imagen": "rogue_agent.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FRogue%20Agent.jpeg?alt=media&token=6635dedb-1c55-4d5f-b1fc-7a2b1015d6e5",
         "stock": 100
       },
       {
@@ -227,7 +227,7 @@
         "precio": 54.99,
         "descuento": 15,
         "descripcion": "Vuelve a sumergirte en el mundo épico de Skyrim con gráficos mejorados.",
-        "imagen": "skyrim_remastered.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSkyrim%20Remastered.jpg?alt=media&token=7b76c369-29f9-4500-9166-e1b2c702eae2",
         "stock": 65
       },
       {
@@ -236,7 +236,7 @@
         "plataforma": "Nintendo Switch",
         "precio": 39.99,
         "descuento": 0,
-        "descripcion": "Sobrevive al apocalipsis zombi en este juego de acción y supervivencia.",
+        "descripcion": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FZombie%20Apocalypse.jpg?alt=media&token=51973beb-74c1-415d-a42c-b60f19d12d15",
         "imagen": "zombie_apocalypse.jpg",
         "stock": 120
       },
@@ -247,7 +247,7 @@
         "precio": 44.99,
         "descuento": 12,
         "descripcion": "Forma tu tripulación y conquista la galaxia como un temible pirata espacial.",
-        "imagen": "space_pirates.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FSpace%20Pirates.jpg?alt=media&token=b2d46efe-6cc5-4145-88cf-4c59b18d811e",
         "stock": 90
       },
       {
@@ -257,7 +257,7 @@
         "precio": 29.99,
         "descuento": 8,
         "descripcion": "Enfréntate a criaturas míticas en un mundo lleno de magia y leyendas.",
-        "imagen": "mythical_creatures.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FMythical%20Creatures.jpg?alt=media&token=3a85d8a3-0981-49a3-8baa-ccd1f44d7786",
         "stock": 70
       },
       {
@@ -267,7 +267,7 @@
         "precio": 59.99,
         "descuento": 10,
         "descripcion": "Participa en intensas batallas futuristas en este juego de estrategia y acción.",
-        "imagen": "future_warfare.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Warfare.jpg?alt=media&token=605610c7-d760-4bf8-bd74-472edb2cce63",
         "stock": 110
       },
       {
@@ -277,7 +277,7 @@
         "precio": 49.99,
         "descuento": 5,
         "descripcion": "Embárcate en una aventura en el lejano oeste y enfrenta a forajidos.",
-        "imagen": "wild_west_outlaws.jpg",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FWild%20West%20Outlaws.jpg?alt=media&token=17398556-b6d8-403c-85bd-c235bb380a58",
         "stock": 85
       },
       {
