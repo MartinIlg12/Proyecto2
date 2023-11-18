@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { CarritoService } from '../carrito/carrito.service';
 @Injectable({
   providedIn: 'root'
 })
 export class ProductoService {
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient, private carritoService: CarritoService,) { }
 
   private API_PRODUCTO="http://localhost:3000/productos"
 
@@ -37,9 +38,7 @@ export class ProductoService {
     return this.http.delete(this.API_PRODUCTO)
   }
   addToCart(producto: any): Observable<any> {
-    
-    console.log('Producto agregado al carrito:', producto);
-   
+    this.carritoService.addToCart(producto);
     return new Observable<any>();
   }
 }

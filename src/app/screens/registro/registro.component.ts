@@ -22,6 +22,7 @@ export class RegistroComponent {
       if (response.nick === temp.nick && response.pass === temp.pass && response.rol === temp.rol) {
         alert("Acceso Correcto");
         localStorage.setItem("login","true");
+        this.ruta.navigate([""])
       } else {
         alert("Credenciales incorrectas");
         
@@ -31,9 +32,6 @@ export class RegistroComponent {
     
     });
   }
-  cerrar(){
-    localStorage.setItem("login","false")
-    this.ruta.navigate([""])
-  }
+  
   }
 

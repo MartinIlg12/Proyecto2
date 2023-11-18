@@ -236,8 +236,8 @@
         "plataforma": "Nintendo Switch",
         "precio": 39.99,
         "descuento": 0,
-        "descripcion": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FZombie%20Apocalypse.jpg?alt=media&token=51973beb-74c1-415d-a42c-b60f19d12d15",
-        "imagen": "zombie_apocalypse.jpg",
+        "descripcion": "Una super aventura de fantasticas hisrorias y terror al mismo tiempo",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FZombie%20Apocalypse.jpg?alt=media&token=51973beb-74c1-415d-a42c-b60f19d12d15",
         "stock": 120
       },
       {
