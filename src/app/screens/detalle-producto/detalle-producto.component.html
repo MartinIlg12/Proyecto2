@@ -1,1 +1,48 @@
-<p>detalle-producto works!</p>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="card" >
+        <div class="card_landing" style="--i:url(img.jpg)" *ngIf="detalleProducto">
+            <h6>{{detalleProducto.nombre}}</h6>
+        </div>
+        <div class="card_info">
+            <div class="head">
+                <p class="title"></p>
+                <div class="description">
+                    <div class="item">
+                        <i class="fa-regular fa-money"></i>
+                        <p>{{detalleProducto.nombre}}</p>
+                    </div>
+                    <div class="item">
+                        <i class="fa-regular fa-user"></i>
+                        <p>4</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="content">
+                <p class="title"></p>
+                <ul class="list">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="action">
+                <a href="#" class="btn"></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
