@@ -7,12 +7,12 @@ import { CarritoService } from 'src/app/services/carrito/carrito.service';
   styleUrls: ['./tienda.component.css']
 })
 export class TiendaComponent {
-  carrito: any[] = [];  // Puedes inicializarlo como un array vacío o según tu lógica de estado del carrito
+  carrito: any[] = [];  
 
   constructor(private carritoService: CarritoService) {}
 
   ngOnInit() {
-    // Si el carrito está almacenado en un servicio, puedes inicializarlo aquí
+    
     this.carrito = this.carritoService.getCarrito();
   }
 
