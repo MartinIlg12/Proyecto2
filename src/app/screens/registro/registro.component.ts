@@ -21,8 +21,20 @@ export class RegistroComponent {
     this.servicio.getUsuarios().subscribe((response: any) => {
       if (response.nick === temp.nick && response.pass === temp.pass && response.rol === temp.rol) {
         alert("Acceso Correcto");
-        localStorage.setItem("login","true");
-        this.ruta.navigate([""])
+
+        if(response.rol=== "admin"){
+          localStorage.setItem("login","true");
+          localStorage.setItem("admin","true");
+          this.ruta.navigate([""])
+        }else if(response.rol=== "usuario"){
+          localStorage.setItem("login","true");
+          localStorage.setItem("admin","false");
+          this.ruta.navigate([""])
+
+        } else if(response.rol=== "visitante")
+        localStorage.setItem("login","false");
+          localStorage.setItem("admin","false");
+          this.ruta.navigate([""])
       } else {
         alert("Credenciales incorrectas");
         

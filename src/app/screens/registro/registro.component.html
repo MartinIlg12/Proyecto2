@@ -1,41 +1,3 @@
-<!-- <body>
-
-    <div class="container-fluid p-5 text-white text-center" style="background-color: black;">
-      <h1>REGISTRATE</h1>
-      <p>Al registrarte podras acceder a varias promociones y novedades solo para nuestros clientes.</p> 
-    </div>
-      
-    <div class="container">
-      <form (ngSubmit)="login(form)" #form="ngForm">
-          <div class="mb-3 mt-3">
-            <label for="nick" class="form-label">Nick:</label>
-            <input type="text" class="form-control"   name="nick" [(ngModel)]="nick">
-          </div>
-          <div class="mb-3">
-            <label for="pwd" class="form-label">Password:</label>
-            <input type="password" class="form-control"  name="pass" [(ngModel)]="pass">
-          </div>
-        
-          
-          <div class="container mt-3">
-              <h2>Seleccione su Rol</h2>
-              
-              
-               <select class="form-select " name="rol" [(ngModel)]="rol">
-                 <option>admin</option>
-                 <option>usuario</option>
-                 <option>visitante</option>
-               </select>
-               <br><br>
-               <button type="submit" class="btn btn-primary">Submit</button>
-               
-            </div>
-        </form>
-        
-<button (click)="cerrar()">CERRAR SESIÓN</button>
-  </div>
-    
-    </body> -->
 
 
 
@@ -74,4 +36,7 @@
                     <p>Al registrarte podras acceder a varias promociones y novedades solo para nuestros clientes.</p>
                 </div>
             </div>
-</body>
+            <div class="container">
+            <app-form-registro></app-form-registro>
+          </div>
+          </body>

@@ -17,6 +17,9 @@ import { DetalleProductoComponent } from './screens/detalle-producto/detalle-pro
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TablaAdminComponent } from './components/tabla-admin/tabla-admin.component';
+import { AdministracionComponent } from './screens/administracion/administracion.component';
+import { FormRegistroComponent } from './components/form-registro/form-registro.component';
 
 
 @NgModule({
@@ -32,7 +35,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     RegistroComponent,
     Error404Component,
     TablaProductoComponent,
-    DetalleProductoComponent
+    DetalleProductoComponent,
+    TablaAdminComponent,
+    AdministracionComponent,
+    FormRegistroComponent
   ],
   imports: [
     BrowserModule,

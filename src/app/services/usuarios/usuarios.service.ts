@@ -11,4 +11,8 @@ export class UsuariosService {
   getUsuarios(): Observable<any>{
     return this.http.get(this.API_USERS)
   }
+
+  postUsuarios(usuario:any): Observable<any>{
+    return this.http.post(this.API_USERS,usuario)
+  }
 }

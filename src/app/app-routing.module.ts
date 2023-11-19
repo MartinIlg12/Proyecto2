@@ -10,6 +10,8 @@ import { TiendaComponent } from './screens/tienda/tienda.component';
 import { Error404Component } from './screens/error404/error404.component';
 import { DetalleProductoComponent } from './screens/detalle-producto/detalle-producto.component';
 import { carritoGuard } from './guards/carrito.guard';
+import { AdministracionComponent } from './screens/administracion/administracion.component';
+import { adminGuard } from './guards/admin/admin.guard';
 
 const routes: Routes = [
 
@@ -19,6 +21,7 @@ const routes: Routes = [
   {path:"contacto",component:ContactoComponent},
   {path:"tienda",component:TiendaComponent, canActivate:[carritoGuard]},
   {path:"registro",component:RegistroComponent},
+  {path:"administracion",component:AdministracionComponent, canActivate:[adminGuard]},
   {path:"detalles/:id",component:DetalleProductoComponent},
   {path:"**",component:Error404Component}
 
