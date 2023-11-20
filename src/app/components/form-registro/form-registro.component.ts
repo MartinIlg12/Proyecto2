@@ -16,6 +16,7 @@ export class FormRegistroComponent {
 
   guardarUsuario(): void {
     const usuario = {
+      
       nick: this.nick,
       pass: this.pass,
       rol: this.rol
@@ -23,6 +24,8 @@ export class FormRegistroComponent {
 
     this.servicio.postUsuarios(usuario).subscribe(() => {
       alert("Registro Completo");
+      this.ruta.navigate([""]);
+
     });
   }
 }
