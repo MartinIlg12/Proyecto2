@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TablaAdminComponent } from './components/tabla-admin/tabla-admin.component';
 import { AdministracionComponent } from './screens/administracion/administracion.component';
 import { FormRegistroComponent } from './components/form-registro/form-registro.component';
+import { RegistrarseComponent } from './screens/registrarse/registrarse.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { FormRegistroComponent } from './components/form-registro/form-registro.
     DetalleProductoComponent,
     TablaAdminComponent,
     AdministracionComponent,
-    FormRegistroComponent
+    FormRegistroComponent,
+    RegistrarseComponent
   ],
   imports: [
     BrowserModule,

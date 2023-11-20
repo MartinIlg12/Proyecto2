@@ -28,4 +28,7 @@ export class FormRegistroComponent {
 
     });
   }
+  regresar(){
+    this.ruta.navigate(["registro"])
+  }
 }

@@ -18,7 +18,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>o inicia sesi+on con tu usuario</span>
-                <input type="email" placeholder="nick" name="nick" [(ngModel)]="nick">
+                <input type="text" placeholder="nick" name="nick" [(ngModel)]="nick">
                 <input type="password" placeholder="contraseña" name="pass" [(ngModel)]="pass">
                 <span>Elije tu Rol</span>
                 <select class="form-select "  name="rol" [(ngModel)]="rol">
@@ -26,8 +26,9 @@
                   <option>usuario</option>
                   <option>visitante</option>
                 </select>
-                <a href="#">¿Olvidaste tu contraseña?</a>
                 <button>Iniciar sesión</button>
+                <a href="registrarse">Registrarse</a>
+                
                 
             </form>
         </div>
@@ -36,7 +37,5 @@
                     <p>Al registrarte podras acceder a varias promociones y novedades solo para nuestros clientes.</p>
                 </div>
             </div>
-            <div class="container">
-            <app-form-registro></app-form-registro>
-          </div>
+            
           </body>

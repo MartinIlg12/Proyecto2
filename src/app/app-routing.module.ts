@@ -12,6 +12,7 @@ import { DetalleProductoComponent } from './screens/detalle-producto/detalle-pro
 import { carritoGuard } from './guards/carrito.guard';
 import { AdministracionComponent } from './screens/administracion/administracion.component';
 import { adminGuard } from './guards/admin/admin.guard';
+import { RegistrarseComponent } from './screens/registrarse/registrarse.component';
 
 const routes: Routes = [
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path:"registro",component:RegistroComponent},
   {path:"administracion",component:AdministracionComponent, canActivate:[adminGuard]},
   {path:"detalles/:id",component:DetalleProductoComponent},
+  {path:"registrarse",component:RegistrarseComponent},
   {path:"**",component:Error404Component}
 
   
