@@ -7,20 +7,13 @@ export class CarritoService {
   
   private carrito: any[] = [];
 
-  constructor() {}
-
-  addToCart(producto: any): void {
-    this.carrito.push(producto);
-  }
-
   getCarrito(): any[] {
     return this.carrito;
   }
 
-  clearCarrito(): void {
-    this.carrito = [];
+  setCarrito(nuevoCarrito: any[]): void {
+    this.carrito = nuevoCarrito;
   }
-  
 
 
 }

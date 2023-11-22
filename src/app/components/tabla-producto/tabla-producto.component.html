@@ -35,6 +35,7 @@
                     </tr>
                   </tbody>
                 </table>
+                
               </div>
             </div>
           </div>
@@ -43,5 +44,32 @@
     </div>
   </div>
 </div>
-
+<div class="container">
+  <section class="carrito">
+    <h4>Carrito</h4>
+    <table class="table table-dark table-borderless mb-0">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">JUEGO</th>
+          <th scope="col">PRECIO</th>
+          <th scope="col">PORTADA</th>
+          <th scope="col">ACCIONES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let producto of carrito">
+          <th scope>{{ producto.id }}</th>
+          <td>{{ producto.nombre }}</td>
+          <td>${{ producto.precio }}</td>
+          <td><img src="{{ producto.imagen }}" class="imagen" style="width: 50px; height: 50px;"></td>
+          <td>
+            <button (click)="removeFromCart(producto)">Eliminar del carrito</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <button (click)="guardarCarrito()">Ir a la Tienda y Guardar</button>
+</div>
 </section>

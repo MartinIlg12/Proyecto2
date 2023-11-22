@@ -38,7 +38,10 @@ export class ProductoService {
     return this.http.delete(this.API_PRODUCTO)
   }
   addToCart(producto: any): Observable<any> {
-    this.carritoService.addToCart(producto);
+    this.carritoService.setCarrito(producto);
     return new Observable<any>();
+  }
+  guardarCarritoEnTienda(carrito: any[]): void {
+    this.carritoService.setCarrito(carrito);
   }
 }
