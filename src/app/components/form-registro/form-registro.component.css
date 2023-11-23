@@ -7,7 +7,10 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-
+.regis{
+    min-height: 150vh;
+    
+}
 body{
     display: flex;
     align-items: center;
@@ -25,7 +28,9 @@ body{
     overflow: hidden;
     width: 768px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 560px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container p{

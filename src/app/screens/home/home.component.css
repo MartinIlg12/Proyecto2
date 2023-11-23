@@ -3,11 +3,6 @@ p{
 h3{
     color: rgb(76, 115, 150)};
 
-
-    body {
+    .fondo{
         background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgb(2, 2, 2) 90% );
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+}

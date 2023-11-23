@@ -6,9 +6,9 @@
 </head>
 <body>
     
-    <div class="card" >
-        <div class="card_landing" style="--i:url(img.jpg)" *ngIf="detalleProducto">
-            <h6>{{detalleProducto.nombre}}</h6>
+    <div class="card" *ngFor="let producto of detalleProducto " >
+        <div class="card_landing" style="--i:url(img.jpg)" >
+            <h6>{{producto.nombre}}</h6>
         </div>
         <div class="card_info">
             <div class="head">
@@ -16,7 +16,7 @@
                 <div class="description">
                     <div class="item">
                         <i class="fa-regular fa-money"></i>
-                        <p>{{detalleProducto.nombre}}</p>
+                        <p></p>
                     </div>
                     <div class="item">
                         <i class="fa-regular fa-user"></i>
