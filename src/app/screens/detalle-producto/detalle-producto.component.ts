@@ -14,6 +14,17 @@ export class DetalleProductoComponent implements OnInit {
   constructor(private detalleprod : ProductoService, private ruta: ActivatedRoute){}
 
   ngOnInit() {
+    const idProducto = this.ruta.snapshot.params['id'];
+
+    // Llamar al servicio para obtener los detalles del producto
+    this.detalleProducto.getDetalleProductos(idProducto).subscribe(
+      (data) => {
+        this.detalleProducto = data;
+      },
+      (error) => {
+        console.error('Error al obtener detalles del producto', error);
+      }
+    );
      
   }
   }

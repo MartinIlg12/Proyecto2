@@ -37,11 +37,16 @@ export class ProductoService {
 
     return this.http.delete(this.API_PRODUCTO)
   }
+  
   addToCart(producto: any): Observable<any> {
     this.carritoService.setCarrito(producto);
     return new Observable<any>();
   }
   guardarCarritoEnTienda(carrito: any[]): void {
     this.carritoService.setCarrito(carrito);
+  }
+  getDetalleProductos(id: any): Observable<any> {
+    const url = `${this.API_PRODUCTO}/${id}`;
+    return this.http.get(url);
   }
 }

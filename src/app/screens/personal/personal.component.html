@@ -11,36 +11,31 @@
         <p style="color: aliceblue;">En Game Xtreme, visualizamos un futuro donde cada gamer encuentre su paraíso personal. Queremos ser reconocidos como el destino por excelencia para los apasionados del juego, brindando no solo productos de alta calidad, sino también experiencias únicas que fortalezcan la conexión entre los gamers. Aspiramos a ser pioneros en la innovación y a contribuir al crecimiento y desarrollo de la comunidad gamer, siempre impulsados por nuestra pasión compartida por el mundo de los videojuegos.</p>
         <br><br>
     </div>
-       
-<!-- Carousel -->
+      </div> 
+
 <div id="demo" class="carousel slide" data-bs-ride="carousel" style="background-color: black;">
-
-  
-
   <div class="midon container-fluid" style="background-color: black;">
     <br><br>
-    <h1 style="text-align: center; color: rgb(40, 206, 25);" >PERSONAL DE GAME XTREME</h1>
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" *ngFor="let personal of dataPersonal">
-          <div class="carousel-item active md-col-3">
-            <img src={{personal.imagen}} class="d-block w-100" alt="..." width="35px" height="350px">
-            <h3 style="color: rgb(247, 248, 250); text-align: center;">{{personal.nombre}}</h3>
-            <p style="text-align: center; color: rgb(247, 248, 250); " >{{personal.cargo}}</p>
-            <p style="text-align: center; color: rgb(247, 248, 250); " >{{personal.edad}} años</p>
-
-          </div>
+    <h1 style="text-align: center; color: rgb(40, 206, 25);">PERSONAL DE GAME XTREME</h1>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner container-fluid">
+        <div class="carousel-item" *ngFor="let personal of dataPersonal; let i = index" [class.active]="i === 0">
+          <img [src]="personal.imagen" class="d-block w-100" alt="..." width="35px" height="350px">
+          <h3 style="color: rgb(247, 248, 250); text-align: center;">{{personal.nombre}}</h3>
+          <p style="text-align: center; color: rgb(247, 248, 250);">{{personal.cargo}}</p>
+          <p style="text-align: center; color: rgb(247, 248, 250);">{{personal.edad}} años</p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" style="color: black;"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" style="color: black;"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
-</div>
+  </div>
 </div>
 
 </body>

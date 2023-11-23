@@ -48,6 +48,7 @@ export class TablaAdminComponent {
       
       alert('Producto guardado exitosamente');
       this.router.navigate(['/administracion']); 
+      window.location.reload()
     },
     (error) => {
       console.error('Error al guardar producto:', error);
@@ -76,6 +77,7 @@ export class TablaAdminComponent {
     this.servicio.putProductos(producto, temp).subscribe(() => {
       alert('Producto editado exitosamente');
       this.router.navigate(['administracion']); 
+      window.location.reload()
      
     },
     (error) => {
@@ -88,12 +90,18 @@ export class TablaAdminComponent {
   eliminarProductos(id: any) {
     this.servicio.deleteProducto(id).subscribe(() => {
       alert('Producto eliminado exitosamente');
-      this.router.navigate(['administracion'])
+      this.router.navigate(['administracion']);
+      window.location.reload()
     },
     (error) => {
       console.error('Error al eliminar producto:', error);
       alert('Error al eliminar producto. Por favor, inténtalo de nuevo.');
      
     });
+  }
+  cerrar(){
+    localStorage.setItem("login-admin","false")
+    localStorage.setItem("login","false")
+    this.router.navigate([""])
   }
 }
