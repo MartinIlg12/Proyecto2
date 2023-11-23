@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { UsuariosService } from 'src/app/services/usuarios/usuarios.service';
-import { getDatabase, ref, child, get } from "firebase/database";
+
 
 @Component({
   selector: 'app-registro',

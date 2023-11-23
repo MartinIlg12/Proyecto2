@@ -8,13 +8,13 @@ import { ProductoService } from 'src/app/services/productos/producto.service';
   styleUrls: ['./detalle-producto.component.css']
 })
 export class DetalleProductoComponent implements OnInit {
-  detalleProducto : any ={}
-  constructor(private detalleprod : ProductoService){}
+  detalleProducto : any[] =[];
+  
+  item : any = {}
+  constructor(private detalleprod : ProductoService, private ruta: ActivatedRoute){}
 
   ngOnInit() {
-      this.detalleprod.getDetalleProducts('id', 'nombre').subscribe(detalleproducto =>{
-        this.detalleProducto=detalleproducto;
-      })
+     
   }
   }
 
