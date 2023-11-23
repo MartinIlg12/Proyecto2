@@ -18,6 +18,7 @@ export class TiendaComponent implements OnInit {
     this.carrito = this.carritoService.getCarrito();
   }
   cerrar(){
+    localStorage.setItem("login-admin","false")
     localStorage.setItem("login","false")
     this.ruta.navigate([""])
   }
