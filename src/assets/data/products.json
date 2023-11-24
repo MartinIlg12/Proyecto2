@@ -37,7 +37,7 @@
       "precio": 29.99,
       "descuento": 0,
       "descripcion": "Participa en emocionantes carreras en este juego de velocidad futurista.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Racer.jpeg?alt=media&token=c3f13872-0979-4c79-8691-8ad51826473d",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Ffuture-racer.jpg?alt=media&token=c147df73-12e9-445b-8d45-85ab8ecc67dc",
       "stock": 60
     },
     {
@@ -47,7 +47,7 @@
       "precio": 19.99,
       "descuento": 8,
       "descripcion": "Descubre los secretos de un reino perdido en este juego de aventuras.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLost%20Kingdoms.jpeg?alt=media&token=6757bdc6-273d-4771-8ce9-6f8f53bffff7",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Flost%20kingdoms.jpg?alt=media&token=c2044441-d0fe-4de3-86af-26ba0b0160f6",
       "stock": 150
     },
     {
@@ -87,7 +87,7 @@
       "precio": 44.99,
       "descuento": 5,
       "descripcion": "Experimenta deportes extremos en el futuro en este juego de acción.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Sports%202040.jpg?alt=media&token=83a1b5d8-26cc-4d63-acea-93a00fc35249",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Ffuture%20sports.jpg?alt=media&token=ecc66324-f932-4a27-8220-9c3753805f3b",
       "stock": 85
     },
     {
@@ -167,7 +167,7 @@
       "precio": 59.99,
       "descuento": 10,
       "descripcion": "Explora mundos infinitos en este juego de aventuras y descubrimientos.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FInfinite%20Realms.jpg?alt=media&token=c24a7e94-ec94-4f88-a2f1-33cf520e315b",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Finfinite%20realm.jpg?alt=media&token=dee00d61-1d7b-4aaf-a4af-a872e92c9fca",
       "stock": 110
     },
     {
@@ -267,7 +267,7 @@
       "precio": 59.99,
       "descuento": 10,
       "descripcion": "Participa en intensas batallas futuristas en este juego de estrategia y acción.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Warfare.jpg?alt=media&token=605610c7-d760-4bf8-bd74-472edb2cce63",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFuture%20Warfare.jpg?alt=media&token=804f8dfa-7096-4693-a9e1-3ae4b924b36b",
       "stock": 110
     },
     {
@@ -307,7 +307,7 @@
       "precio": 49.99,
       "descuento": 8,
       "descripcion": "Sumérgete en las profundidades del océano en busca de tesoros y misterios.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FDeep%20Sea%20Explorer.jpeg?alt=media&token=54772938-0735-4022-a4c9-eb43c0c3faaf",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Fdeep%20sea%20explorer.webp?alt=media&token=cb581f27-d7e0-4f42-af15-a1eff9733214",
       "stock": 80
     },
     {
@@ -327,7 +327,7 @@
       "precio": 54.99,
       "descuento": 15,
       "descripcion": "Explora sistemas estelares lejanos y enfrenta desafíos cósmicos.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLost%20in%20Space.jpg?alt=media&token=4fb0455e-b518-47db-b2e1-3c83c0fb05b4",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Flost%20in%20space.webp?alt=media&token=596bf3c5-6a33-4ab1-afd5-2b066e64d2d3",
       "stock": 65
     },
     {
@@ -337,7 +337,7 @@
       "precio": 39.99,
       "descuento": 0,
       "descripcion": "Construye tu propio reino mágico en este juego de simulación.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FFantasy%20Kingdom%20Builder.jpeg?alt=media&token=68519021-e7ca-40ec-9151-b5b2cf56fee7",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Ffantasy%20kingdom%20builder.webp?alt=media&token=bd506638-0777-4f69-9404-b3352c99b8b1",
       "stock": 120
     },
     {
@@ -427,7 +427,7 @@
       "precio": 54.99,
       "descuento": 15,
       "descripcion": "Únete a una expedición legendaria en busca de tesoros y secretos perdidos.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FLegendary%20Explorers.jpg?alt=media&token=52f86fda-458e-409f-9888-beb7f6540ca1",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Flegendary%20explorers.webp?alt=media&token=8027125e-130d-4658-8ada-592ab64e789e",
       "stock": 65
     },
     {
@@ -477,7 +477,7 @@
       "precio": 49.99,
       "descuento": 5,
       "descripcion": "Enfréntate a maldiciones y criaturas oscuras en este juego de rol.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FCursed%20Kingdoms.png?alt=media&token=38fce823-0800-4478-9680-6e80a4165300",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FCursed%20Kingdoms.avif?alt=media&token=0f997b10-60ad-4189-bb94-7119a267c7c4",
       "stock": 85
     },
     {
@@ -497,7 +497,7 @@
       "precio": 34.99,
       "descuento": 0,
       "descripcion": "Lidera una revolución en un mundo de fantasía en este juego estratégico.",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2FGlorious%20Revolution.jpg?alt=media&token=dcf7a258-edc1-4963-8ffa-1dfe494d16be",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto2-25510.appspot.com/o/imagenes-productos%2Fglorious%20revolution.jpg?alt=media&token=53410d4d-bc4b-450b-9f0a-29ef5e5e5057",
       "stock": 150
     }
   ],

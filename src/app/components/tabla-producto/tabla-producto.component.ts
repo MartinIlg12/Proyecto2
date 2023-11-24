@@ -9,6 +9,7 @@ import { ProductoService } from 'src/app/services/productos/producto.service';
 export class TablaProductoComponent {
   dataProducto: any = {};
   carrito: any[] = [];
+  usuarioAutenticado: boolean = false;
   constructor(private serviceprod: ProductoService, private ruta:Router) {}
 
   ngOnInit() {
@@ -40,4 +41,6 @@ export class TablaProductoComponent {
     this.carrito = [];
     this.ruta.navigate(['tienda']);
   }
+  
+  
 }

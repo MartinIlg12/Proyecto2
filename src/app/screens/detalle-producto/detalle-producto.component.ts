@@ -8,14 +8,24 @@ import { ProductoService } from 'src/app/services/productos/producto.service';
   styleUrls: ['./detalle-producto.component.css']
 })
 export class DetalleProductoComponent implements OnInit {
-  detalleProducto : any[] =[];
-  
-  item : any = {}
-  constructor(private detalleprod : ProductoService, private ruta: ActivatedRoute){}
+  Producto: any;
+
+  constructor(private detalleprod: ProductoService, private ruta: ActivatedRoute) {}
 
   ngOnInit() {
-    
-     
+    this.ruta.params.subscribe((parametros) => {
+      const id = +parametros['id'];
+
+      // Llamar al servicio para obtener detalles del producto por ID
+      this.detalleprod.getDetalleProducts(id).subscribe(
+        (producto) => {
+          this.Producto = producto;
+        },
+        (error) => {
+          console.error('Error al obtener detalles del producto', error);
+        }
+      );
+    });
   }
   }
 

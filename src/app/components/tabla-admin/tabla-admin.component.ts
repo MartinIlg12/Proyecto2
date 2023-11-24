@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProductoService } from 'src/app/services/productos/producto.service';
 import { Router } from '@angular/router';
+import { UsuariosService } from 'src/app/services/usuarios/usuarios.service';
 
 @Component({
   selector: 'app-tabla-admin',
@@ -8,8 +9,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./tabla-admin.component.css']
 })
 export class TablaAdminComponent {
+  nick: any;
+  pass: any;
+  rol: any;
 
-  constructor(private servicio: ProductoService,private router: Router) {}
+  constructor(private servicio: ProductoService,private router: Router,private serviciop: UsuariosService) {}
 
   ide: any;
   nombre: any;
@@ -104,4 +108,20 @@ export class TablaAdminComponent {
     localStorage.setItem("login","false")
     this.router.navigate([""])
   }
+
+  guardarUsuario(): void {
+    const usuario = {
+      
+      nick: this.nick,
+      pass: this.pass,
+      rol: this.rol
+    };
+
+    this.serviciop.postUsuarios(usuario).subscribe(() => {
+      alert("Registro Completo");
+      window.location.reload()
+
+    });
+  }
+  
 }

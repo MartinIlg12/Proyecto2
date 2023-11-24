@@ -13,7 +13,7 @@ export class ProductoService {
   getProducts(): Observable<any>{
     return this.http.get(this.API_PRODUCTO)
   }
-  getDetalleProducts(id:any, nombre:any): Observable<any>{
+  getDetalleProducts(id:any): Observable<any>{
     this.API_PRODUCTO=`${this.API_PRODUCTO}/${id}`
 
     return this.http.get(this.API_PRODUCTO)
@@ -45,8 +45,5 @@ export class ProductoService {
   guardarCarritoEnTienda(carrito: any[]): void {
     this.carritoService.setCarrito(carrito);
   }
-  getDetalleProductos(id: any): Observable<any> {
-    const url = `${this.API_PRODUCTO}/${id}`;
-    return this.http.get(url);
-  }
+ 
 }
