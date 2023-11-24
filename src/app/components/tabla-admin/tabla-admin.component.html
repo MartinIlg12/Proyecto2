@@ -56,6 +56,7 @@
     
     </section>
 </div>
+
 <div class="col-md-6 container">
     <h2 class="letform">Editar productos</h2>
         <form #apform="ngForm">
@@ -102,9 +103,34 @@
             <br>
             <input type="submit" (click)="eliminarProductos(ide)" class="btn-danger btn-danger-c" value="Eliminar">
           </form>
+          <br>
+          <div class=" col-md-6">
+          <div class=" container regis ">
+            <form (ngSubmit)="guardarUsuario()" #form="ngForm">
+                  
+                  <span class="mb-3 mt-3 letform ">Registro Administrador</span>
+                  <br>
+                  <br>
+                  <input  type="text" placeholder="nick" name="nick" [(ngModel)]="nick"> <h3>Nick</h3>
+                  <input  type="password" placeholder="contraseña" name="pass" [(ngModel)]="pass"><h3>Pass</h3>
+                  <span class="mb-3 mt-3 letform " >Elije el Rol</span>
+                  <select class="form-select "  name="rol" [(ngModel)]="rol">
+                   
+                    <option>admin</option>
+                    <option>usuario</option>
+                    <option>visitante</option>
+                    
+                  </select>
+                  
+                  <button>Registrar</button>
+                  
+              </form>
+          </div>
+                  </div>
+            </div>
+        <div class="container col-md-6">
+          <button (click)="cerrar()">CERRAR SESIÓN</button>
         </div>
-
-</div>
-<div class="container col-md-6">
-  <button (click)="cerrar()">CERRAR SESIÓN</button>
+        <div><div class="container regis" >
+         
 </div>
